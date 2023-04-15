@@ -15,6 +15,10 @@ body {
   color: #000;
   font-family: "Poppins", sans-serif;
 }
+
+
+/* ccs de flash*/
+
 section.card {
   background: #BFA340;
   background: -webkit-linear-gradient(to right, #BFA340, #000046);
@@ -54,7 +58,7 @@ section.card .text-content a {
   transition: 400ms all;
 }
 section.card .text-content a:hover {
-  background: #ff5000;
+  background: #f7814a;
   color: white;
 }
 section.card .visual {
@@ -67,7 +71,7 @@ section.card .visual {
   border-radius: 24px;
 }
 section.card .visual img {
-  height: 110%;
+  height: 100%;
 }
 article {
   margin: auto;
@@ -122,7 +126,7 @@ article {
     }
 }
 
-
+/* css de supergirl */
 
 section.cardd {
   background: #000046;
@@ -176,7 +180,7 @@ section.cardd .visual {
   border-radius: 24px;
 }
 section.cardd .visual img {
-  height: 110%;
+  height: 100%;
 }
 article {
   margin: auto;
@@ -230,3 +234,447 @@ article {
     height: auto;
     }
 }
+
+
+
+/* css de arrow */
+
+section.carda {
+    background: #063b24;
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
+    background: linear-gradient(to right, #000,#084949, #2E8B57);
+    border-radius: 24px 24px 24px 48px;
+    padding: 48px 48px 48px 308px;
+    margin: 84px 0;
+    min-width: 640px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    position: relative;
+    box-shadow: 5px 0 0 0 rgba(204,204,204,0.3), -5px 0 0 0 rgba(204,204,204,0.3), 0 5px 0 0 rgba(204,204,204,0.3);
+  }
+  section.carda .textt-contentt {
+    display: flex;
+    flex-direction: column;
+    width:calc(60vw - 192px);
+  }
+  section.carda .textt-contentt h3 {
+    margin: 0;
+    font-size: 1.5em;
+    max-width: 20ch;
+    color: #fff;
+  }
+  section.carda .textt-contentt p {
+    margin: 25px 0 24px;
+    color: #fff;
+  }
+  section.carda .textt-contentt a {
+    border: 3px solid #f2f2f2;
+    color: #ffffff;
+    align-self: flex-start;
+    text-decoration: none;
+    padding: 16px 32px;
+    border-radius: 12px;
+    transition: 400ms all;
+  }
+  section.carda .textt-contentt a:hover {
+    background: #008000;
+    color: white;
+  }
+  section.carda .visual {
+    width: 240px;
+    height: 100%;
+    position: absolute;
+    top: -24px;
+    left: 24px;
+    overflow: hidden;
+    border-radius: 24px;
+  }
+  section.carda .visual img {
+    height: 100%;
+  }
+
+  article {
+    margin: auto;
+    display: block;
+    width:calc(60vw + 248px);
+    max-width:calc(920px + 248px);
+    min-width:calc(640px + 248px);
+  }
+  @media all and (max-width: 1100px) {
+    body {
+      padding: 96px 48px 24px;
+    }
+    article {
+      width: 100%;
+      min-width: 100%;
+    }
+    section.carda {
+      min-width: 100%;
+    }
+    section.carda .textt-contentt {
+      width: 100%;
+    }
+  }
+  @media all and (max-width: 720px) {
+    body {
+      padding: 48px 24px 0;
+    }
+    section.carda {
+      margin: 64px 0;
+      padding: 88px 36px 36px;
+      flex-direction: column;
+      border-radius: 24px;
+    }
+    section.carda .text-contentt h3 {
+      max-width:calc(100% - 150px);
+      font-size: 1em;
+    }
+    section.carda .text-contentt p,
+    section.carda .text-contentt a {
+      font-size: 0.8em;
+    }
+    section.carda .visual {
+      width: 150px;
+      height: 150px;
+      right: 16px;
+      left: auto;
+      border-radius: 50%;
+    }
+    section.carda .visual img{
+      width: 100%;
+      height: auto;
+      }
+  }
+
+/* css de legends of tomorrow */
+
+  section.cardt {
+    background: #063b24;
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
+    background: linear-gradient(to right, #000, #5f4c00 ,#e7d90d);
+    border-radius: 24px 24px 24px 48px;
+    padding: 48px 48px 48px 308px;
+    margin: 84px 0;
+    min-width: 640px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    position: relative;
+    box-shadow: 5px 0 0 0 rgba(204,204,204,0.3), -5px 0 0 0 rgba(204,204,204,0.3), 0 5px 0 0 rgba(204,204,204,0.3);
+  }
+  section.cardt .text-ccontent {
+    display: flex;
+    flex-direction: column;
+    width:calc(60vw - 192px);
+  }
+  section.cardt .text-ccontent h3 {
+    margin: 0;
+    font-size: 1.5em;
+    max-width: 20ch;
+    color: #fff;
+  }
+  section.cardt .text-ccontent p {
+    margin: 25px 0 24px;
+    color: #fff;
+  }
+  section.cardt .text-ccontent a {
+    border: 3px solid #f2f2f2;
+    color: #ffffff;
+    align-self: flex-start;
+    text-decoration: none;
+    padding: 16px 32px;
+    border-radius: 12px;
+    transition: 400ms all;
+  }
+  section.cardt .text-ccontent a:hover {
+    background: #ffd900;
+    color: white;
+  }
+  section.cardt .visual {
+    width: 240px;
+    height: 100%;
+    position: absolute;
+    top: -24px;
+    left: 24px;
+    overflow: hidden;
+    border-radius: 24px;
+  }
+  section.cardt .visual img {
+    height: 100%;
+  }
+
+  article {
+    margin: auto;
+    display: block;
+    width:calc(60vw + 248px);
+    max-width:calc(920px + 248px);
+    min-width:calc(640px + 248px);
+  }
+  @media all and (max-width: 1100px) {
+    body {
+      padding: 96px 48px 24px;
+    }
+    article {
+      width: 100%;
+      min-width: 100%;
+    }
+    section.cardt {
+      min-width: 100%;
+    }
+    section.cardt .text-ccontent {
+      width: 100%;
+    }
+  }
+  @media all and (max-width: 720px) {
+    body {
+      padding: 48px 24px 0;
+    }
+    section.cardt {
+      margin: 64px 0;
+      padding: 88px 36px 36px;
+      flex-direction: column;
+      border-radius: 24px;
+    }
+    section.cardt .text-ccontent h3 {
+      max-width:calc(100% - 150px);
+      font-size: 1em;
+    }
+    section.cardt .text-ccontent p,
+    section.cardt .text-ccontent a {
+      font-size: 0.8em;
+    }
+    section.cardt .visual {
+      width: 150px;
+      height: 150px;
+      right: 16px;
+      left: auto;
+      border-radius: 50%;
+    }
+    section.cardt .visual img{
+      width: 100%;
+      height: auto;
+      }
+  }
+
+  /* css de raio negro */
+
+  section.cardl {
+    background: #063b24;
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
+    background: linear-gradient(to right, #000,#e7d90d, #000);
+    border-radius: 24px 24px 24px 48px;
+    padding: 48px 48px 48px 308px;
+    margin: 84px 0;
+    min-width: 640px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    position: relative;
+    box-shadow: 5px 0 0 0 rgba(204,204,204,0.3), -5px 0 0 0 rgba(204,204,204,0.3), 0 5px 0 0 rgba(204,204,204,0.3);
+  }
+  section.cardl .teext-content {
+    display: flex;
+    flex-direction: column;
+    width:calc(60vw - 192px);
+  }
+  section.cardl .teext-content h3 {
+    margin: 0;
+    font-size: 1.5em;
+    max-width: 20ch;
+    color: #fff;
+  }
+  section.cardl .teext-content p {
+    margin: 25px 0 24px;
+    color: #fff;
+  }
+  section.cardl .teext-content a {
+    border: 3px solid #f2f2f2;
+    color: #ffffff;
+    align-self: flex-start;
+    text-decoration: none;
+    padding: 16px 32px;
+    border-radius: 12px;
+    transition: 400ms all;
+  }
+  section.cardl .teext-content a:hover {
+    background: white;
+    color: black;
+  }
+  section.cardl .visual {
+    width: 240px;
+    height: 100%;
+    position: absolute;
+    top: -24px;
+    left: 24px;
+    overflow: hidden;
+    border-radius: 24px;
+  }
+  section.cardl .visual img {
+    height: 100%;
+  }
+
+  article {
+    margin: auto;
+    display: block;
+    width:calc(60vw + 248px);
+    max-width:calc(920px + 248px);
+    min-width:calc(640px + 248px);
+  }
+  @media all and (max-width: 1100px) {
+    body {
+      padding: 96px 48px 24px;
+    }
+    article {
+      width: 100%;
+      min-width: 100%;
+    }
+    section.cardl {
+      min-width: 100%;
+    }
+    section.cardl .teext-content {
+      width: 100%;
+    }
+  }
+  @media all and (max-width: 720px) {
+    body {
+      padding: 48px 24px 0;
+    }
+    section.cardl {
+      margin: 64px 0;
+      padding: 88px 36px 36px;
+      flex-direction: column;
+      border-radius: 24px;
+    }
+    section.cardl .teext-content h3 {
+      max-width:calc(100% - 150px);
+      font-size: 1em;
+    }
+    section.cardl .teext-content p,
+    section.cardl .teext-content a {
+      font-size: 0.8em;
+    }
+    section.cardl .visual {
+      width: 150px;
+      height: 150px;
+      right: 16px;
+      left: auto;
+      border-radius: 50%;
+    }
+    section.cardl .visual img{
+      width: 100%;
+      height: auto;
+      }
+  }
+
+/* css de batwoman */
+
+section.cardb {
+  background: #063b24;
+  background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
+  background: linear-gradient(to right, #000, #000 , #ff0010);
+  border-radius: 24px 24px 24px 48px;
+  padding: 48px 48px 48px 308px;
+  margin: 84px 0;
+  min-width: 640px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  position: relative;
+  box-shadow: 5px 0 0 0 rgba(204,204,204,0.3), -5px 0 0 0 rgba(204,204,204,0.3), 0 5px 0 0 rgba(204,204,204,0.3);
+}
+section.cardb .texxt-content {
+  display: flex;
+  flex-direction: column;
+  width:calc(60vw - 192px);
+}
+section.cardb .texxt-content h3 {
+  margin: 0;
+  font-size: 1.5em;
+  max-width: 20ch;
+  color: #fff;
+}
+section.cardb .texxt-content p {
+  margin: 25px 0 24px;
+  color: #fff;
+}
+section.cardb .texxt-content a {
+  border: 3px solid #f2f2f2;
+  color: #ffffff;
+  align-self: flex-start;
+  text-decoration: none;
+  padding: 16px 32px;
+  border-radius: 12px;
+  transition: 400ms all;
+}
+section.cardb .texxt-content a:hover {
+  background: #ff0000;
+  color: black;
+}
+section.cardb .visual {
+  width: 240px;
+  height: 100%;
+  position: absolute;
+  top: -24px;
+  left: 24px;
+  overflow: hidden;
+  border-radius: 24px;
+}
+section.cardb .visual img {
+  height: 110%;
+}
+
+article {
+  margin: auto;
+  display: block;
+  width:calc(60vw + 248px);
+  max-width:calc(920px + 248px);
+  min-width:calc(640px + 248px);
+}
+@media all and (max-width: 1100px) {
+    body {
+      padding: 96px 48px 24px;
+    }
+    article {
+      width: 100%;
+      min-width: 100%;
+    }
+    section.cardb {
+      min-width: 100%;
+    }
+    section.cardb .texxt-content {
+      width: 100%;
+    }
+  }
+  @media all and (max-width: 720px) {
+    body {
+      padding: 48px 24px 0;
+    }
+    section.cardb {
+      margin: 64px 0;
+      padding: 88px 36px 36px;
+      flex-direction: column;
+      border-radius: 24px;
+    }
+    section.cardb .texxt-content h3 {
+      max-width:calc(100% - 150px);
+      font-size: 1em;
+    }
+    section.cardb .texxt-content p,
+    section.cardb .texxt-content a {
+      font-size: 0.8em;
+    }
+    section.cardb .visual {
+      width: 150px;
+      height: 150px;
+      right: 16px;
+      left: auto;
+      border-radius: 50%;
+    }
+    section.cardb .visual img{
+      width: 100%;
+      height: auto;
+      }
+  }
+ /* ccs de stargirl */
+ /* css de superman and Lois */
